@@ -1,0 +1,30 @@
+.MuiStepConnector-line {
+    display: none !important;
+  }
+  
+  .MuiStepConnector-root {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+  
+  .MuiStepConnector-active,
+  .MuiStepConnector-completed {
+    background-color: tomato;
+  }
+  .MuiPaper-root {
+      color: rgba(0, 0, 0, 0.87);
+      transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      background-color: #fff;
+      box-shadow: 15px 10px 25px 0px #3fa1a9 !important;
+      padding: 10px !important;
+       
+    }
+    .StepsBgColor {
+      /* background: #49afa8 !important; */
+      /* background-color: #fff !important; */
+      /* background-image: url(https://github.com/OlgaKoplik/CodePen/blob/master/leaf.png?raw=true) !important; */
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 1%;
+          box-shadow: 15px 10px 25px 0px #3fa1a9;
+    }
